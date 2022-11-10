@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+body{
+    background-color: rgb(29, 29, 65);
+    font-family: 'League Gothic', sans-serif;
+    margin: 0px;
+}
+
+img {
+    
+}
+
+/*Navbar style*/
+#navbar {
+    background-color: red;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+/* Navbar buttons */
+.button1 {
+    background-image: url(images/buttons/nav_home.png);
+    height: 60px;
+    padding: 0px 15px;
+}
+.button2 {
+    background-image: url(images/buttons/nav_news.png);
+    height: 50px;
+    padding: 0px 15px;
+}
+.button3 {
+    background-image: url(images/buttons/nav_info.png);
+    height: 60px;
+    padding: 0px 15px;
+}
+.button4 {
+    background-image: url(images/buttons/nav_lineup.png);
+    height: 50px;
+    padding: 0px 15px;
+}
+.button5 {
+    background-image: url(images/buttons/nav_areas.png);
+    height: 60px;
+    padding: 0px 15px;
+}
+.button6 {
+    background-image: url(images/buttons/nav_history_selected.png);
+    height: 62px;
+    padding: 0px 15px;
+}
+.button7 {
+    background-image: url(images/buttons/nav_gallery.png);
+    height: 55px;
+    padding: 0px 15px;
+}
+.button8 {
+    background-image: url(images/buttons/nav_contact.png);
+    height: 58px;
+    padding: 0px 15px;
+}
+.button9 {
+    background-image: url(images/buttons/nav_worthy_causes.png);
+    height: 63px;
+    padding: 0px 15px;
+}
+.button10 {
+    background-image: url(images/buttons/nav_shop.png);
+    height: 60px;
+    padding: 0px 15px;
+}
+/* Navbar buttons end */
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+#logobackground {
+    background-image: url("images/Website_Banner_desktop_2022.png");
+    display: flex;
+    justify-content: center;
+}
+
+.slabtext{
+    color: #46a756;
+    text-transform: uppercase;
+    word-spacing: 1.75px;
+    letter-spacing: 0px;
+    font-size: 70px;
+}
+hr {
+    background-image: url("images/hr_green.gif");
+}
+#cimage {
+    padding: 15px 15px 15px 15px;
+    background-color: beige;
+}
+
+
+p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.col_1 {
+    background-color: beige;
+    margin-left: 20px;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.col_1 a {
+    color: #46a756;
+    font-size: 25px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.col_1 a:hover {
+    color: black;
+}
+
+ul {
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+/* .sel {
+    margin: 20px;
+} */
+.col_1 li {
+    padding: 5px 10px 5px 15px;
+}
+footer {
+    background-color: beige;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
